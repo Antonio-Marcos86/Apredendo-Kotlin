@@ -1,6 +1,9 @@
-package alura.com.br.kotlin.lacos_e_condicoes
+package alura.com.br.kotlin.testandoCodigo
 
+import alura.com.br.kotlin.R
+import alura.com.br.kotlin.model.Conta
 import android.util.Log
+import android.widget.TextView
 
 class LacosCondicoes {
 
@@ -72,4 +75,17 @@ class LacosCondicoes {
             Log.i("Teste", "Saldo da conta está negativa")
         }
     }
+
+//    private fun testaCopiasEReferencias() {
+//        var conta = Conta()
+//        conta.titular = "Antonio"
+//        val text: TextView = findViewById<TextView>(R.id.conta)
+//        text.setOnClickListener {
+//            text.text = conta.titular
+//        }
+//
+//        val numeroX = 10
+//        var numeroY = numeroX
+//        //numeroY++
+////    }
 }
